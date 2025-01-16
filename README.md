@@ -1,29 +1,57 @@
-# Create T3 App
+# Graph Visualization Exercise 🌳
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Hey there! 👋 Thanks for taking on our frontend coding exercise. We've put together this task to see how you approach building interactive UI components and organize your code. Don't worry - we're not looking for perfection, but rather your thought process and coding style.
 
-## What's next? How do I make an app with this?
+## The Task
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Your mission is to create a graph visualization screen that allows users to explore connected nodes and their relationships. The main features include:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- Display an interactive graph using React Flow
+- Implement a popover that appears when clicking on nodes
+- Style the components to match the provided design
+- Ensure smooth interactions and state management
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+You can find the design to implement here:
+[Figma Design](https://www.figma.com/design/TYWFAUS25dmEMSkhvGBU2G/Untitled?node-id=0-1&m=dev&t=2RggZ0VFf1ubuiqA-1)
 
-## Learn More
+Here's what we'll be looking at:
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Component organization and reusability
+- Clean and maintainable CSS implementation
+- State management approach
+- TypeScript usage and type safety
+- Overall code structure and readability
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Tech Stack
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+We've set up the project with some modern tools to help you get started quickly:
 
-## How do I deploy this?
+- **Next.js 14** - React framework with App Router
+- **Tailwind CSS** - For styling
+- **React Flow** - Graph visualization library
+- **shadcn/ui** - Component library
+- **TypeScript** - For type safety
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies:
+```bash
+pnpm install
+```
+
+3. Run the development server:
+```bash
+pnpm dev
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## What We're Looking For
+
+- **Component Structure**: How you break down the UI into reusable components
+- **CSS Organization**: Clean use of Tailwind and custom styles where needed
+- **State Management**: Efficient handling of graph data and UI state
+- **Code Quality**: Clean, readable, and well-documented code
+- **TypeScript**: Proper type definitions and usage
+
