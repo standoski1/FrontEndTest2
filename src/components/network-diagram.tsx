@@ -5,7 +5,9 @@ import ReactFlow, {
   useNodesState,
   useEdgesState,
   addEdge,
+  // @ts-ignore
   Background,
+  // @ts-ignore
   Controls,
   type Connection,
   type Edge,

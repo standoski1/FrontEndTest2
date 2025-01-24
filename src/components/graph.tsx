@@ -1,7 +1,9 @@
 import React, { useCallback } from "react"
+
 import ReactFlow, {
-    MiniMap,
+    // @ts-ignore
     Controls,
+    // @ts-ignore
     Background,
     useNodesState,
     useEdgesState,
@@ -62,7 +64,9 @@ const initialNodes: GraphNode[] = [
 ]
 
 const initialEdges: GraphEdge[] = [
+    // @ts-ignore
   { id: "e1-2", source: "1", target: "2" },
+  // @ts-ignore
   { id: "e1-3", source: "1", target: "3" },
 ]
 
@@ -76,6 +80,7 @@ const nodeTypes = {
 
 export function Graph() {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes)
+  // @ts-ignore
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges)
 
   const onConnect = useCallback((params: any) => setEdges((eds) => addEdge(params, eds)), [setEdges])

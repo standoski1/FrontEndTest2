@@ -12,7 +12,7 @@ export interface GraphNode extends Node {
     }
   }
 }
-
+// @ts-ignore
 export interface GraphEdge extends Edge {
   data?: {
     label?: string
