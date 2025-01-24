@@ -13,8 +13,8 @@ export function RiskTable() {
           { name: "Loremipsumdolorsit", ip: "192.168.1.1" },
           { name: "Loremipsumdolorsit002", ip: "192.168.1.2" },
         ].map((item, i) => (
-          <>
-           <div key={i} className="flex justify-between items-center">
+          <div key={i}>
+           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <div className="w-8 h-8 bg-blue-100 rounded-[30px] flex items-center justify-center">
               <img
@@ -33,7 +33,7 @@ export function RiskTable() {
             </Badge>
           </div>
           <div className="w-full h-[.7px] bg-[#ccc]"></div>
-          </>
+          </div>
         ))}
       </div>
       <div className="mt-4 text-[13px] text-[#667085] text-center">Showing 1-2 of 2</div>
